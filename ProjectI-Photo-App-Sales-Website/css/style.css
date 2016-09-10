@@ -6,6 +6,10 @@ body {
   color: #1caa9a !important;
 }
 
+section {
+  padding: 40px 0 40px 0;
+}
+
 .jumbotron {
   background: url(../img/site_showcase_bg.jpg) no-repeat top center;
   color: #fff;
@@ -21,11 +25,17 @@ body {
   margin-bottom: 40px;
 }
 
-.jumbotron .app-btn {
+.jumbotron img.app-btn {
   width: 40%;
   margin-right: 30px;
 }
 
-.jumbotron .showcase-img {
+.jumbotron img.showcase-img {
   width: 61%;
+}
+
+img.demo {
+  width: 100%;
+  padding: 3px;
+  border: 1px solid #ccc;
 }
