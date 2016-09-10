@@ -5,3 +5,27 @@ body {
 .em-text {
   color: #1caa9a !important;
 }
+
+.jumbotron {
+  background: url(../img/site_showcase_bg.jpg) no-repeat top center;
+  color: #fff;
+  height: 495px;
+  overflow: none;
+}
+
+.jumbotron h1 {
+  margin-top: 60px;
+}
+
+.jumbotron p {
+  margin-bottom: 40px;
+}
+
+.jumbotron .app-btn {
+  width: 40%;
+  margin-right: 30px;
+}
+
+.jumbotron .showcase-img {
+  width: 61%;
+}
