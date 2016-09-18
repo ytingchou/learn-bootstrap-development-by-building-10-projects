@@ -106,6 +106,16 @@ header .logo {
   overflow: auto;
 }
 
+.members .member-row {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.members img {
+  margin-bottom: 5px;
+}
+
 footer {
   background: #f4f4f4;
   height: 90px;
@@ -115,4 +125,10 @@ footer {
   padding-top: 40px;
   margin-top: 30px;
   border-top: 7px solid #04519b;
+}
+
+@media (min-width: 991px) {
+    .members p {
+    padding-top: 40px;
+  }
 }
