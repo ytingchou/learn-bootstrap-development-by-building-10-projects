@@ -1,2 +1,77 @@
 @import "vendors/bootstrap/bootstrap.less";
 @import "vendors/font-awesome/font-awesome.less";
+
+@primary: #26a5d3;
+@dark: #333333;
+@light: #f4f4f4;
+
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Helvetical Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin:  0 0 35px;
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+p {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+a {
+  color: @primary;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color:  darken(@primary, 20%);
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: @dark;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.navbar-brand:focus {
+  outline: none;
+}
+
+.navbar-custom a {
+  color: @light;
+}
+
+.navbar-custom .nav li a {
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (min-width: 767px) {
+  .navbar {
+    padding: 20px 0;
+    border-bottom: none;
+    background: transparent;
+  }
+}
