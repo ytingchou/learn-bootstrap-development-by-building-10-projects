@@ -8,7 +8,12 @@ body {
 body#login {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #eee;
+  background-color: #1f87c2;
+  color: #fff;
+}
+
+body#login h2 {
+  color: #fff;
 }
 
 .form-signin {
